@@ -1,0 +1,104 @@
+{
+ "facts": {},
+ "macros": {},
+ "usage": {
+  "clock": 1,
+  "say": 1,
+  "type_text": 6,
+  "open_site": 2,
+  "open_app": 4
+ },
+ "learned": {
+  "learn, my name is deeper": [
+   [
+    "type_text",
+    {
+     "text": "learn, my name is deeper"
+    }
+   ]
+  ],
+  "heavy batteries open the youtube": [
+   [
+    "open_site",
+    {
+     "url": "https://www.youtube.com"
+    }
+   ],
+   [
+    "open_app",
+    {
+     "name": "YouTube"
+    }
+   ],
+   [
+    "type_text",
+    {
+     "text": "https://www.youtube.com/deeper"
+    }
+   ]
+  ],
+  "search, direct method of partition tool": [
+   [
+    "open_app",
+    {
+     "name": "Edge"
+    }
+   ]
+  ],
+  "search, tarracme, tarracme, tarracme.com": [
+   [
+    "type_text",
+    {
+     "text": "tarracme tarracme tarracme.com"
+    }
+   ]
+  ],
+  "beg to the jarvis screen": [
+   [
+    "type_text",
+    {
+     "text": "beg to the Jarvis screen"
+    }
+   ]
+  ],
+  "as always delete all the typed word": [
+   [
+    "type_text",
+    {
+     "text": ""
+    }
+   ]
+  ],
+  "back to the home screen": [
+   [
+    "open_site",
+    {
+     "url": "https://www.bing.com/search?q=home+screen"
+    }
+   ]
+  ],
+  "and harvest back to the home screen, desktop screen": [
+   [
+    "type_text",
+    {
+     "text": "and harvest"
+    }
+   ]
+  ],
+  "back to the desktop screen, not search back": [
+   [
+    "open_app",
+    {
+     "name": "Edge"
+    }
+   ]
+  ]
+ },
+ "qa": {},
+ "unknown": [
+  "how are you say good morning",
+  "hi there, my name is deep hunt",
+  "learn",
+  "vscode, vscode, vscode"
+ ]
+}

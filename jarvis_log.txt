@@ -1,0 +1,19 @@
+2026-10-27 01:09:25 guest: 'hello Jarvis' -> Good morning. How can I help?
+2026-10-27 01:09:54 guest: 'code, money' -> I can help you with coding tutorials or financial guidance. Which one would you 
+2026-10-27 01:09:56 clock {'what': 'time'}
+2026-10-27 01:10:18 llm error 'steps'
+2026-10-27 01:10:57 say {'text': 'learn, miss people'}
+2026-10-27 01:11:39 type_text {'text': 'learn, my name is deeper'}
+2026-10-27 01:11:55 open_site {'url': 'https://www.youtube.com'}
+2026-10-27 01:11:58 open_app {'name': 'YouTube'}
+2026-10-27 01:11:59 type_text {'text': 'https://www.youtube.com/deeper'}
+2026-10-27 01:12:24 open_app {'name': 'Edge'}
+2026-10-27 01:12:37 type_text {'text': 'tarracme tarracme tarracme.com'}
+2026-10-27 01:13:01 type_text {'text': 'beg to the Jarvis screen'}
+2026-10-27 01:13:26 type_text {'text': ''}
+2026-10-27 01:13:50 open_site {'url': 'https://www.bing.com/search?q=home+screen'}
+2026-10-27 01:14:07 type_text {'text': 'and harvest'}
+2026-10-27 01:14:20 open_app {'name': 'Edge'}
+2026-10-27 01:14:40 open_app {'name': 'vscode'}
+2026-10-27 12:12:51 llm error timed out
+2026-10-27 12:27:21 tts error Command '['powershell', '-NoProfile', '-Command', "Add-Type -AssemblyName System.Speech;$s=New-Object System.Speech.Synthesis.SpeechSynthesizer;try{$s.SelectVoiceByHints('Male')}catch{};$s.Speak($env:JARVIS_SAY)"]' timed out after 90 seconds
